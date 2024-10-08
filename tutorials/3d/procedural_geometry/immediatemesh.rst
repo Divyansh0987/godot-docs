@@ -1,11 +1,11 @@
-.. _doc_immediatemesh:
+ .. _doc_immediatemesh:
 
 Using ImmediateMesh
 ===================
 
 The :ref:`ImmediateMesh <class_ImmediateMesh>` is a convenient tool to create
-dynamic geometry using an OpenGL 1.x-style API. Which makes it both approachable
-to use and efficient for meshes which need to be updated every frame.
+dynamic geometry using an OpenGL 1.x-style API. This makes it both approachable
+to use and efficient for meshes that need to be updated every frame.
 
 Generating complex geometry (several thousand vertices) with this tool is inefficient, even if it's
 done only once. Instead, it is designed to generate simple geometry that changes every frame.
